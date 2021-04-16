@@ -1,5 +1,18 @@
 <template>
-  <div>
+
+  <div class="">
+    <a class="button--green ">
+    <nuxt-link to="/">메인 페이지</nuxt-link>
+    </a>
+    <a class="button--green ">
+    <nuxt-link to="/users/profile/1">1 user</nuxt-link>
+    </a>
+    <a class="button--green ">
+    <nuxt-link to="/users/profile/2">2 user</nuxt-link>
+    </a>
+    <a class="button--green ">
+    <nuxt-link to="/users/profile/undefined">undefined user</nuxt-link>
+    </a>
     <nuxt/>
   </div>
 </template>
@@ -33,6 +46,7 @@ html {
 .button--green:hover {
   color: #fff;
   background-color: #3b8070;
+  text-decoration: none;
 }
 
 .button--grey {
